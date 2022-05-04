@@ -1,0 +1,67 @@
+$background-color:      #f0f0f0;
+$text-color:            #222222;
+$link-base-color:       #2a7ae2;
+$link-visited-color:    darken($link-base-color, 15%);
+$link-hover-color:      $text-color;
+
+body {
+    color: $text-color;
+    background-color: $background-color;
+}
+
+// Links
+a {
+  color: $link-base-color;
+  text-decoration: none;
+
+  &:visited {
+    color: $link-visited-color;
+  }
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: underline;
+  }
+}
+
+footer {
+    position: relative;
+    max-width: 600px;
+    min-height: 100px;
+    margin: auto;
+    color: $text-color;
+}
+
+svg {
+    width: 1em;
+    height: 1em;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.projects {
+    text-align: left;
+}
+
+.footer-links-div {
+    position: absolute;
+    width: 100%;
+    height: 1em;
+    bottom: 0;
+}
+
+.footer-links {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+
+.footer-link {
+    margin-right: 1em;
+}

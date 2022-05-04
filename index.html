@@ -1,0 +1,30 @@
+---
+title: "Owen Sanchez"
+---
+<div class="content">
+    <h1 class="section-header">Owen Sanchez</h3>
+    <div class="section-content">
+        <p>
+            Programming is my passion, but I also love math and anything else involving computers. I got started 7 years ago by learning Python and have since picked up several other languages, including JavaScript, Lua, and Rust (my favorite). You can find some of the projects I have released below.
+        </p>
+        <p>
+            You can find me on
+            <a href="https://github.com/pengowen123/">GitHub</a>,
+            <a href="https://www.linkedin.com/in/owen-sanchez-3349a6238/">LinkedIn</a>,
+            and <a href="mailto:owen@owensanchez.com">through email</a>.
+        </p>
+    </div>
+    <h3 class="section-header">Projects</h3>
+    <div class="section-content projects">
+        {% for project in site.projects %}
+            <h4>
+                # {{ project.name }} (<a href="{{ project.link }}">GitHub</a>)
+            </h4>
+            <p>{{ project.content | markdownify }}</p>
+        {% endfor %}
+        <br>
+        <p>
+            You can find a full list of my projects on my <a href="https://github.com/pengowen123/">GitHub</a>.
+        </p>
+    </div>
+</div>
