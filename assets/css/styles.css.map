@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		"$background-color:      #f0f0f0;\n$text-color:            #222222;\n$link-base-color:       #2a7ae2;\n$link-visited-color:    darken($link-base-color, 15%);\n$link-hover-color:      $text-color;\n\nbody {\n    color: $text-color;\n    background-color: $background-color;\n}\n\n// Links\na {\n  color: $link-base-color;\n  text-decoration: none;\n\n  &:visited {\n    color: $link-visited-color;\n  }\n\n  &:hover {\n    color: $link-hover-color;\n    text-decoration: underline;\n  }\n}\n\nfooter {\n    position: relative;\n    max-width: 600px;\n    min-height: 100px;\n    margin: auto;\n    color: $text-color;\n}\n\nsvg {\n    width: 1em;\n    height: 1em;\n}\n\n.content {\n    width: 100%;\n    height: 100%;\n    max-width: 600px;\n    margin: auto;\n    text-align: center;\n}\n\n.projects {\n    text-align: left;\n}\n\n.footer-links-div {\n    position: absolute;\n    width: 100%;\n    height: 1em;\n    bottom: 0;\n}\n\n.footer-links {\n    width: 50%;\n    height: 100%;\n    margin: auto;\n}\n\n.footer-link {\n    margin-right: 1em;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACMA,AAAA,IAAI,CAAC,EACD,KAAK,EANe,OAAO,EAO3B,gBAAgB,EARI,OAAO,GAS9B;;AAGD,AAAA,CAAC,CAAC,EACA,KAAK,EAXiB,OAAO,EAY7B,eAAe,EAAE,IAAI,GAUtB;;AAZD,AAIE,CAJD,CAIG,OAAO,CAAC,EACR,KAAK,EAfe,OAAO,GAgB5B;;AANH,AAQE,CARD,CAQG,KAAK,CAAC,EACN,KAAK,EApBe,OAAO,EAqB3B,eAAe,EAAE,SAAS,GAC3B;;AAGH,AAAA,MAAM,CAAC,EACH,QAAQ,EAAE,QAAQ,EAClB,SAAS,EAAE,KAAK,EAChB,UAAU,EAAE,KAAK,EACjB,MAAM,EAAE,IAAI,EACZ,KAAK,EA9Be,OAAO,GA+B9B;;AAED,AAAA,GAAG,CAAC,EACA,KAAK,EAAE,GAAG,EACV,MAAM,EAAE,GAAG,GACd;;AAED,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,IAAI,EACZ,SAAS,EAAE,KAAK,EAChB,MAAM,EAAE,IAAI,EACZ,UAAU,EAAE,MAAM,GACrB;;AAED,AAAA,SAAS,CAAC,EACN,UAAU,EAAE,IAAI,GACnB;;AAED,AAAA,iBAAiB,CAAC,EACd,QAAQ,EAAE,QAAQ,EAClB,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,GAAG,EACX,MAAM,EAAE,CAAC,GACZ;;AAED,AAAA,aAAa,CAAC,EACV,KAAK,EAAE,GAAG,EACV,MAAM,EAAE,IAAI,EACZ,MAAM,EAAE,IAAI,GACf;;AAED,AAAA,YAAY,CAAC,EACT,YAAY,EAAE,GAAG,GACpB"
+}
